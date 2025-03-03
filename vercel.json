@@ -1,0 +1,19 @@
+{
+  "buildCommand": "yarn generate",
+  "outputDirectory": ".output/public",
+  "framework": "nuxt",
+  "rewrites": [
+    {
+      "source": "/abstractAuth/:path*",
+      "destination": "https://numa-abs-login.vercel.app/:path*"
+    },
+    {
+      "source": "/deck",
+      "destination": "/deck.pdf"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1.html"
+    }
+  ]
+}
