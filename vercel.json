@@ -4,6 +4,10 @@
   "framework": "nuxtjs",
   "rewrites": [
     {
+      "source": "/abstractAuth/_next/(.*)",
+      "destination": "https://numa-abs-login.vercel.app/_next/$1"
+    },
+    {
       "source": "/abstractAuth/:path*",
       "destination": "https://numa-abs-login.vercel.app/:path*"
     },
