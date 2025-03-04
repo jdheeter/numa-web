@@ -1,7 +1,7 @@
 {
   "buildCommand": "yarn generate",
   "outputDirectory": ".output/public",
-  "framework": "nuxt",
+  "framework": "nuxtjs",
   "rewrites": [
     {
       "source": "/abstractAuth/:path*",
