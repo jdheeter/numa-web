@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "AU8Z56LUXJ.com.numasocial.app",
+        "paths": [
+          "/app/*"
+        ]
+      }
+    ]
+  }
+}

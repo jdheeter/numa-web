@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.numasocial.app",
+      "sha256_cert_fingerprints": [
+        "71:C9:73:07:3E:1A:FB:0F:D2:B6:80:C9:13:53:73:36:DC:76:68:B0:A7:70:F6:BA:7E:D2:26:73:C6:5D:D7:BA"
+      ]
+    }
+  }
+]
