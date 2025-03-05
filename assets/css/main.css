@@ -1,7 +1,31 @@
-/* assets/css/main.css */
+/* assets/css/main.css - add this at the top after the @tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font definitions */
+@font-face {
+  font-family: "PolySans Median";
+  src: url("/fonts/PolySans-Median.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PolySans Slim";
+  src: url("/fonts/PolySans-Slim.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* You'll need to add Poppins and other fonts too */
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+  font-display: swap;
+}
 @layer base {
   /* Set default text styles */
   html {

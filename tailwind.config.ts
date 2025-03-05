@@ -18,7 +18,7 @@ export default <Partial<Config>>{
       fontFamily: {
         sans: ["PolySans Median", "Inter", "sans-serif"],
         slim: ["PolySans Slim", "sans-serif"],
-        heading: ["Poppins", "sans-serif"],
+        heading: ["PolySans Median", "Inter", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       boxShadow: {
