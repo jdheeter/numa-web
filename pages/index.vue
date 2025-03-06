@@ -33,7 +33,7 @@ useHead({
 
 // Optional: Add this if you want to handle mouse movement for parallax effect
 onMounted(() => {
-  if (process.client) {
+  if (import.meta.client) {
     const parallaxElement = document.querySelector(".parallax")
 
     document.addEventListener("mousemove", (e) => {
@@ -48,20 +48,7 @@ onMounted(() => {
 })
 </script>
 
-<style lang="postcss">
-@font-face {
-  font-family: "PolySans Median";
-  src: url("/fonts/PolySans-Median.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PolySans Slim";
-  src: url("/fonts/PolySans-Slim.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
+<style lang="scss">
 /* Base classes */
 .social-link {
   @apply w-8 h-8 border border-gray-400 rounded-md flex items-center justify-center;

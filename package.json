@@ -25,6 +25,9 @@
     "@iconify-json/heroicons": "^1.2.2",
     "@vue/language-plugin-pug": "^2.2.6",
     "pug": "^3.0.3",
-    "pug-plugin": "^6.0.0"
+    "pug-plugin": "^6.0.0",
+    "sass": "^1.85.1",
+    "sass-embedded": "^1.85.1",
+    "sass-loader": "^16.0.5"
   }
 }
